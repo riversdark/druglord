@@ -1,0 +1,19 @@
+name: biobb
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_io
+  - biobb_analysis
+  - biobb_chemistry
+  - biobb_structure_utils
+  - biobb_pmx
+  - biobb_vs
+  - biobb_model
+  - biobb_md
+  - rdkit
+  - nb_conda_kernels
+  - plotly
+  - nglview
+  - simpletraj
+  - conda
