@@ -3,6 +3,16 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
+  - ipython
+  - notebook
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - nbdev
+  - nb_conda_kernels
   - biobb_io
   - biobb_analysis
   - biobb_chemistry
@@ -13,7 +23,6 @@ dependencies:
   - biobb_md
   - biobb_amber
   - rdkit
-  - nb_conda_kernels
   - plotly
   - nglview
   - simpletraj

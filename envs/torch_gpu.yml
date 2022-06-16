@@ -1,0 +1,33 @@
+name: torch_gpu
+channels:
+  - conda-forge
+  - pytorch
+  - fastai
+  - openbabel
+  - defaults
+dependencies:
+  - python=3.8
+  - ipython
+  - notebook
+  - ipywidgets
+  - conda
+  - pip
+  - nbdev
+  - pytorch 
+  - torchvision 
+  - torchaudio 
+  - cudatoolkit=11.3
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - arviz
+  - rdkit
+  - pytdc
+  - nglview
+  - pip:
+    - git+https://github.com/bp-kelley/descriptastorus
+    - DeepPurpose
+    - pyro-ppl
